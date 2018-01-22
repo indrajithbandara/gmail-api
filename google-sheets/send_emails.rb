@@ -110,7 +110,7 @@ puts "Please enter the email subject"
 subject = gets.chomp.to_s
 
 # Call the send_email_to_listing function with all arguments to excute the script
-send_gmail_to_listing(username, password, subject, "1uGaDLBLGFZxqx72bUalxkfnTR7B0AD2SWTWAaDPkLKg", "email.html", "thp.png")
+send_gmail_to_listing(username, password, subject, "1uGaDLBLGFZxqx72bUalxkfnTR7B0AD2SWTWAaDPkLKg", "email_template.html", "thp.png")
 
 
 
